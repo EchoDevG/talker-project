@@ -1,7 +1,10 @@
 # dad-talker
 VB.NET program to allow dad to talk
 
+
+
 This is a small and pointless program designed to let my dad talk without a voicebox. 
+
 
 It has two main features: 
 
