@@ -489,5 +489,11 @@ Module Module1
     'to do: Put in subroutine, create start up menu with colour and choose IP
 
 
+    Sub loadColour()
+        keyColours.Add(65, ConsoleColor.Red)
+        'and so on
+    End Sub
+
+
 
 End Module
