@@ -491,6 +491,16 @@ Module Module1
 
     Sub loadColour()
         keyColours.Add(65, ConsoleColor.Red)
+        keyColours.Add(66, ConsoleColor.Red)
+        keyColours.Add(67, ConsoleColor.Red)
+        keyColours.Add(68, ConsoleColor.Red)
+        keyColours.Add(69, ConsoleColor.Red)
+        keyColours.Add(70, ConsoleColor.Red)
+        keyColours.Add(71, ConsoleColor.Red)
+        keyColours.Add(72, ConsoleColor.Red)
+        keyColours.Add(73, ConsoleColor.Red)
+        keyColours.Add(74, ConsoleColor.Red)
+        keyColours.Add(75, ConsoleColor.Red)
         'and so on
     End Sub
 
