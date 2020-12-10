@@ -11,7 +11,11 @@ Module Module1
 
     Sub Main()
         serverIP = "127.0.0.1"
-        '       this it the code for console colouring in       Console.BackgroundColor = ConsoleColor.Red
+
+        If keyColours Is Nothing Then
+            loadColour()
+        End If
+
         Console.Clear()
         Console.WriteLine("Main Menu")
         Console.WriteLine("")
@@ -85,115 +89,11 @@ Module Module1
         Do While letter < 32
         Loop
 
-        If letter = 65 Then
-            Console.BackgroundColor = ConsoleColor.Red
-            Console.Clear()
-            Console.WriteLine("Enjoy!")
-            Console.WriteLine("")
-            Console.WriteLine("Press any key to continue...")
-            Console.ReadLine()
-            Console.Clear()
-            Main()
 
-        ElseIf letter = 66 Then
-            Console.BackgroundColor = ConsoleColor.Yellow
-            Console.Clear()
-            Console.WriteLine("Enjoy!")
-            Console.WriteLine("")
-            Console.WriteLine("Press any key to continue...")
-            Console.ReadLine()
-            Console.Clear()
-            Main()
 
-        ElseIf letter = 67 Then
-            Console.BackgroundColor = ConsoleColor.Green
-            Console.Clear()
-            Console.WriteLine("Enjoy!")
-            Console.WriteLine("")
-            Console.WriteLine("Press any key to continue...")
-            Console.ReadLine()
-            Console.Clear()
-            Main()
+        If keyColours.ContainsKey(letter) Then
 
-        ElseIf letter = 68 Then
-            Console.BackgroundColor = ConsoleColor.DarkGreen
-            Console.Clear()
-            Console.WriteLine("Enjoy!")
-            Console.WriteLine("")
-            Console.WriteLine("Press any key to continue...")
-            Console.ReadLine()
-            Console.Clear()
-            Main()
-
-        ElseIf letter = 69 Then
-            Console.BackgroundColor = ConsoleColor.Blue
-            Console.Clear()
-            Console.WriteLine("Enjoy!")
-            Console.WriteLine("")
-            Console.WriteLine("Press any key to continue...")
-            Console.ReadLine()
-            Console.Clear()
-            Main()
-
-        ElseIf letter = 70 Then
-            Console.BackgroundColor = ConsoleColor.DarkBlue
-            Console.Clear()
-            Console.WriteLine("Enjoy!")
-            Console.WriteLine("")
-            Console.WriteLine("Press any key to continue...")
-            Console.ReadLine()
-            Console.Clear()
-            Main()
-
-        ElseIf letter = 71 Then
-            Console.BackgroundColor = ConsoleColor.Cyan
-            Console.Clear()
-            Console.WriteLine("Enjoy!")
-            Console.WriteLine("")
-            Console.WriteLine("Press any key to continue...")
-            Console.ReadLine()
-            Console.Clear()
-            Main()
-
-        ElseIf letter = 72 Then
-            Console.BackgroundColor = ConsoleColor.Magenta
-            Console.Clear()
-            Console.WriteLine("Enjoy!")
-            Console.WriteLine("")
-            Console.WriteLine("Press any key to continue...")
-            Console.ReadLine()
-            Console.Clear()
-            Main()
-
-        ElseIf letter = 73 Then
-            Console.BackgroundColor = ConsoleColor.DarkMagenta
-            Console.Clear()
-            Console.WriteLine("Enjoy!")
-            Console.WriteLine("")
-            Console.WriteLine("Press any key to continue...")
-            Console.ReadLine()
-            Console.Clear()
-            Main()
-
-        ElseIf letter = 74 Then
-            Console.BackgroundColor = ConsoleColor.White
-            Console.Clear()
-            Console.WriteLine("Enjoy!")
-            Console.WriteLine("")
-            Console.WriteLine("Press any key to continue...")
-            Console.ReadLine()
-            Console.Clear()
-            Main()
-
-        ElseIf letter = 75 Then
-            Console.BackgroundColor = ConsoleColor.Black
-            Console.Clear()
-            Console.WriteLine("Enjoy!")
-            Console.WriteLine("")
-            Console.WriteLine("Press any key to continue...")
-            Console.ReadLine()
-            Console.Clear()
-            Main()
+            Console.BackgroundColor = keyColours(letter)
 
         ElseIf letter = 76 Then
             Console.WriteLine("")
@@ -493,15 +393,15 @@ Module Module1
         keyColours.Add(65, ConsoleColor.Red)
         keyColours.Add(66, ConsoleColor.Yellow)
         keyColours.Add(67, ConsoleColor.Green)
-        keyColours.Add(68, ConsoleColor.)
-        keyColours.Add(69, ConsoleColor.)
-        keyColours.Add(70, ConsoleColor.)
-        keyColours.Add(71, ConsoleColor.)
-        keyColours.Add(72, ConsoleColor.)
-        keyColours.Add(73, ConsoleColor.)
-        keyColours.Add(74, ConsoleColor.)
-        keyColours.Add(75, ConsoleColor.)
-        'and so on
+        keyColours.Add(68, ConsoleColor.DarkGreen)
+        keyColours.Add(69, ConsoleColor.Blue)
+        keyColours.Add(70, ConsoleColor.DarkBlue)
+        keyColours.Add(71, ConsoleColor.Cyan)
+        keyColours.Add(72, ConsoleColor.Magenta)
+        keyColours.Add(73, ConsoleColor.DarkMagenta)
+        keyColours.Add(74, ConsoleColor.White)
+        keyColours.Add(75, ConsoleColor.Black)
+
     End Sub
 
 
