@@ -9,8 +9,58 @@ Imports System.Threading
 Module Module1
 
 
-
     Sub Main()
+
+        Dim strHostName As String = System.Net.Dns.GetHostName()
+        Dim strIPAddress As String = System.Net.Dns.GetHostByName(strHostName).AddressList(0).ToString()
+
+        Console.Clear()
+        Console.WriteLine("Main Menu")
+        Console.WriteLine("")
+        Console.WriteLine("==================")
+        Console.WriteLine("IP Address: " & strIPAddress)
+        Console.WriteLine("")
+        Console.WriteLine("Press the number on your keyboard to pick an option")
+        Console.WriteLine("")
+        Console.WriteLine("1. Change console background colour")
+        Console.WriteLine("2. Change colsole text colour")
+        Console.WriteLine("3. Set server IP")
+        Console.WriteLine("4. Connect to the server")
+        Console.WriteLine("5. Credits")
+        Console.WriteLine("6. Exit program")
+        Console.WriteLine("")
+        Console.WriteLine("==================")
+        Console.WriteLine("")
+
+        Dim key As Integer = (Console.ReadKey().Key)
+
+        Do While key < 32
+        Loop
+
+        If key = 49 Then
+
+        ElseIf key = 50 Then
+
+        ElseIf key = 51 Then
+
+        ElseIf key = 52 Then
+
+        ElseIf key = 53 Then
+
+        ElseIf key = 54 Then
+
+        Else
+
+        End If
+    End Sub
+
+
+
+
+
+
+
+    Sub Connect()
         Dim cts As CancellationTokenSource = New CancellationTokenSource()
         Dim listener As TcpListener = New TcpListener(IPAddress.Any, 28000)     'sets listener as a listener listening for any IP
         listener.Start()                'starts listener
