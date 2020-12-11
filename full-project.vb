@@ -255,6 +255,7 @@ Module Module1
         Console.WriteLine("Motivation - Andrew Craig")
         Console.WriteLine("Telling me to use linux - Callum Smith")
         Console.WriteLine("Cool code comments - Dylan Garratt")
+        Console.writeline("Testing - Monib Ahmed")
         Console.WriteLine("Actual clever parts of the program - it_sage, developer. Found on Experts Exchange")
         Console.WriteLine("")
         Console.WriteLine("")
