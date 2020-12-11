@@ -1,6 +1,7 @@
 Imports System.IO
 Imports System.Net
 Imports System.Net.Sockets
+Imports System.Net.Sockets.NetworkStream
 
 Imports System.Threading
 
@@ -36,7 +37,7 @@ Module Module1
         Loop
 
         If key = 49 Then
-            colours()           'working
+            backColours()           'working
         ElseIf key = 50 Then
             textColours()       'working
         ElseIf key = 51 Then
@@ -54,10 +55,9 @@ Module Module1
     End Sub
 
 
-    Sub colours()
+    Sub backColours()
 
         Console.Clear()
-        'red, orange, yellow, light green, dark green, dark blue, light blue, cyan, magenta, indigo, violet, white, black
         Console.WriteLine("Colour menu")
         Console.WriteLine("")
         Console.WriteLine("==================")
@@ -211,7 +211,7 @@ Module Module1
     Sub setIP()
 
         Console.Clear()
-        Console.WriteLine("Type the server IP in the form [xxx.x.x.x] and press enter...")
+        Console.WriteLine("Type the server IP in the form [xx.xx.xxx.x(x)(x)] and press enter...")
         Console.WriteLine("")
         serverIP = Console.ReadLine()
         Console.Clear()
@@ -255,7 +255,8 @@ Module Module1
         Console.WriteLine("Motivation - Andrew Craig")
         Console.WriteLine("Telling me to use linux - Callum Smith")
         Console.WriteLine("Cool code comments - Dylan Garratt")
-        Console.writeline("Testing - Monib Ahmed")
+        Console.WriteLine("Testing - Monib Ahmed")
+        Console.WriteLine("Executive tester - Robert Bari")
         Console.WriteLine("Actual clever parts of the program - it_sage, developer. Found on Experts Exchange")
         Console.WriteLine("")
         Console.WriteLine("")
