@@ -1,0 +1,11 @@
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Server reciever\bin\Debug\Server reciever.exe.config
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Server reciever\bin\Debug\Server reciever.exe
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Server reciever\bin\Debug\Server reciever.pdb
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Server reciever\bin\Debug\Server reciever.xml
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Server reciever\obj\Debug\Server reciever.vbprojAssemblyReference.cache
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Server reciever\obj\Debug\Server_reciever.Resources.resources
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Server reciever\obj\Debug\Server reciever.vbproj.GenerateResource.cache
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Server reciever\obj\Debug\Server reciever.vbproj.CoreCompileInputs.cache
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Server reciever\obj\Debug\Server reciever.exe
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Server reciever\obj\Debug\Server reciever.xml
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Server reciever\obj\Debug\Server reciever.pdb

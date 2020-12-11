@@ -1,0 +1,11 @@
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Client sender\bin\Debug\Client sender.exe.config
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Client sender\bin\Debug\Client sender.exe
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Client sender\bin\Debug\Client sender.pdb
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Client sender\bin\Debug\Client sender.xml
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Client sender\obj\Debug\Client sender.vbprojAssemblyReference.cache
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Client sender\obj\Debug\Client_sender.Resources.resources
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Client sender\obj\Debug\Client sender.vbproj.GenerateResource.cache
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Client sender\obj\Debug\Client sender.vbproj.CoreCompileInputs.cache
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Client sender\obj\Debug\Client sender.exe
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Client sender\obj\Debug\Client sender.xml
+C:\Users\Children games\Documents\Dylan\Coding\Dads christmas present\Client sender\obj\Debug\Client sender.pdb
