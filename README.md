@@ -2,6 +2,10 @@
 VB.NET program to allow dad to talk
 
 
+# This project has been depreciated and the finished version can be found in the no-network-talker-project
+The finished version does not have communication between computers, but is functional while this is not.
+
+
 
 This is a small and pointless program designed to let my dad talk without a voicebox. 
 
