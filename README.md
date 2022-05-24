@@ -7,7 +7,7 @@ The finished version does not have communication between computers, but is funct
 
 
 
-This is a small and pointless program designed to let my dad talk without a voicebox. 
+# This is a small and pointless program designed to let my dad talk without a voicebox. 
 
 
 It has two main features: 
